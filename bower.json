@@ -1,0 +1,22 @@
+{
+  "name": "acssist",
+  "description": "A CSS helper classes package",
+  "main": "dist/acssist.css",
+  "authors": [
+    "Sahil Anguralla"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "css",
+    "helpers",
+    "classes"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
