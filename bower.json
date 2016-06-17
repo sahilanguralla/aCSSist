@@ -3,13 +3,14 @@
   "description": "A CSS helper classes package",
   "main": "dist/acssist.css",
   "authors": [
-    "Sahil Anguralla"
+    "Sahil Anguralla <anguralla.sahil@gmail.com>"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
     "css",
     "helpers",
-    "classes"
+    "classes",
+    "styles"
   ],
   "homepage": "",
   "ignore": [
@@ -18,5 +19,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sahilanguralla/aCSSist.git"
+  }
 }
