@@ -1,0 +1,14 @@
+@for $i from 1 through 30 {
+  .font-#{$i}px { font-size: 1px * $i !important; }
+}
+
+@for $i from 1 through 14 {
+  .font-#{$i * 5 + 30}px { font-size: 5px * $i + 30 !important; }
+}
+
+@for $i from 0 through 4 {
+	.font-#{$i} { font-size: 1em * $i !important; }
+	@for $j from 1 through 9 {
+  	.font-#{$i}-#{$j} { font-size: .1em * $j + $i !important; }
+	}
+}

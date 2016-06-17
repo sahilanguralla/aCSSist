@@ -1,0 +1,146 @@
+/* height helpers in px */
+@for $i from 1 through 20 {
+  .ht-#{$i * 5}px { height: 5px * $i !important; }
+}
+
+@for $i from 1 through 10 {
+  .ht-#{$i * 10 + 100}px { height: 10px * $i + 100 !important; }
+}
+
+@for $i from 1 through 36 {
+  .ht-#{$i * 50 + 200}px { height: 50px * $i + 200 !important; }
+}
+
+/* width helpers in px */
+@for $i from 1 through 20 {
+  .wd-#{$i * 5}px { width: 5px * $i !important; }
+}
+
+@for $i from 1 through 10 {
+  .wd-#{$i * 10 + 100}px { width: 10px * $i + 100 !important; }
+}
+
+@for $i from 1 through 36 {
+  .wd-#{$i * 50 + 200}px { width: 50px * $i + 200 !important; }
+}
+
+/* height helpers in percentage */
+@for $i from 1 through 100 {
+  .ht-#{$i}pc { height: 1% * $i !important; }
+}
+
+@for $i from 1 through 20 {
+  .ht-#{$i * 5 + 100}pc { height: 5% * $i + 100 !important; }
+}
+
+
+/* width helpers in percentage */
+@for $i from 1 through 100 {
+  .wd-#{$i}pc { width: 1% * $i !important; }
+}
+
+@for $i from 1 through 20 {
+  .wd-#{$i * 5 + 100}pc { width: 5% * $i + 100 !important; }
+}
+/* min-height helpers in px */
+@for $i from 1 through 20 {
+  .min-ht-#{$i * 5}px { min-height: 5px * $i !important; }
+}
+
+@for $i from 1 through 10 {
+  .min-ht-#{$i * 10 + 100}px { min-height: 10px * $i + 100 !important; }
+}
+
+@for $i from 1 through 20 {
+  .min-ht-#{$i * 50 + 200}px { min-height: 50px * $i + 200 !important; }
+}
+
+/* min-width helpers in px */
+@for $i from 1 through 20 {
+  .min-wd-#{$i * 5}px { min-width: 5px * $i !important; }
+}
+
+@for $i from 1 through 10 {
+  .min-wd-#{$i * 10 + 100}px { min-width: 10px * $i + 100 !important; }
+}
+
+@for $i from 1 through 20 {
+  .min-wd-#{$i * 50 + 200}px { min-width: 50px * $i + 200 !important; }
+}
+
+/* min-height helpers in percentage */
+@for $i from 1 through 100 {
+  .min-ht-#{$i}pc { min-height: 1% * $i !important; }
+}
+
+@for $i from 1 through 20 {
+  .min-ht-#{$i * 5 + 100}pc { min-height: 5% * $i + 100 !important; }
+}
+
+
+/* min-width helpers in percentage */
+@for $i from 1 through 100 {
+  .min-wd-#{$i}pc { min-width: 1% * $i !important; }
+}
+
+@for $i from 1 through 20 {
+  .min-wd-#{$i * 5 + 100}pc { min-width: 5% * $i + 100 !important; }
+}
+
+@media(max-width:769px) {
+  
+  @for $i from 1 through 20 {
+    .ht-mobile-#{$i * 5}px { height: 5px * $i !important; }
+  }
+
+  @for $i from 1 through 10 {
+    .ht-mobile-#{$i * 10 + 100}px { height: 10px * $i + 100 !important; }
+  }
+
+  @for $i from 1 through 36 {
+    .ht-mobile-#{$i * 50 + 200}px { height: 50px * $i + 200 !important; }
+  }
+
+  /* width helpers in px */
+  @for $i from 1 through 20 {
+    .wd-mobile-#{$i * 5}px { width: 5px * $i !important; }
+  }
+
+  @for $i from 1 through 10 {
+    .wd-mobile-#{$i * 10 + 100}px { width: 10px * $i + 100 !important; }
+  }
+
+  @for $i from 1 through 36 {
+    .wd-mobile-#{$i * 50 + 200}px { width: 50px * $i + 200 !important; }
+  }
+}
+
+@media(min-width:769px) {
+  /* min-height helpers in px */
+  @for $i from 1 through 20 {
+    .min-ht-gt-mobile-#{$i * 5}px { min-height: 5px * $i !important; }
+  }
+
+  @for $i from 1 through 10 {
+    .min-ht-gt-mobile-#{$i * 10 + 100}px { min-height: 10px * $i + 100 !important; }
+  }
+
+  @for $i from 1 through 20 {
+    .min-ht-gt-mobile-#{$i * 50 + 200}px { min-height: 50px * $i + 200 !important; }
+  }
+
+  /* min-width helpers in px */
+  @for $i from 1 through 20 {
+    .min-wd-gt-mobile-#{$i * 5}px { min-width: 5px * $i !important; }
+  }
+
+  @for $i from 1 through 10 {
+    .min-wd-gt-mobile-#{$i * 10 + 100}px { min-width: 10px * $i + 100 !important; }
+  }
+
+  @for $i from 1 through 20 {
+    .min-wd-gt-mobile-#{$i * 50 + 200}px { min-width: 50px * $i + 200 !important; }
+  }
+
+}
+

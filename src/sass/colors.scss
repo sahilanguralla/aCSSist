@@ -1,0 +1,46 @@
+$map: (
+	light-green: #99b433,
+	green: #27ae60,
+	dark-green: #1e7145,
+	magenta: #F62459,
+	light-purple: #9b59b6,
+	purple: #8e44ad,
+	dark-purple: #7e3878,
+	light-blue: #59ABE3,
+	blue: #4183D7,
+	dark-blue: #446CB3,
+	black: #1d1d1d,
+	teal: #00aba9,
+	light-yellow: #e9d460,
+	yellow: #f1c40f,
+	light-orange: #EB9532,
+	orange: #f39c12,
+	light-red: #e74c3c,
+	red: #e74c3c,
+	dark-red: #D91E18,
+	white: #ffffff,
+	silver: #BFBFBF,
+	light-brown: #8F6F40,
+	brown: #6F532A,
+	dark-brown: #523D1F,
+	light-grey: #DDD,
+	grey: rgb(110, 110, 110),
+);
+
+@each $color, $hex in $map {
+    .bg-#{$color} {
+        background-color: $hex !important;
+    }
+}
+
+@each $color, $hex in $map {
+    .fg-#{$color} {
+        color: $hex !important;
+    }
+}
+
+@each $color, $hex in $map {
+    .border-#{$color} {
+        border-color: $hex !important;
+    }
+}
